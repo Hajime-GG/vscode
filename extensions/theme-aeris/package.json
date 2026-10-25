@@ -1,0 +1,25 @@
+
+{
+  "name": "theme-aeris",
+  "displayName": "Aeris Moonlit Glass",
+  "description": "A calm, luminous graphite theme for Aeris.",
+  "version": "1.0.0",
+  "publisher": "aeris",
+  "license": "MIT",
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "aeris-moonlit-glass",
+        "label": "Aeris Moonlit Glass",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aeris-moonlit-glass-color-theme.json"
+      }
+    ]
+  }
+}
